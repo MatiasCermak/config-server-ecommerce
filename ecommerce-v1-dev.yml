@@ -13,7 +13,7 @@ spring:
       authentication-database: admin
       password:
         - Matrox23
-      username: myUserAdmin
+      username: admin
 jwt:
   expiration: 60000
   secret: springbootjwtcoderhouse
