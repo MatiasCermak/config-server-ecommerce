@@ -10,6 +10,10 @@ spring:
       database: coderhouse
       host: localhost
       port: 27017
+      authentication-database: admin
+      password:
+        - Matrox23
+      username: myUserAdmin
 jwt:
   expiration: 60000
   secret: springbootjwtcoderhouse
