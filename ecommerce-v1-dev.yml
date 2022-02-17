@@ -14,7 +14,7 @@ spring:
       password: admin
       username: myUserAdmin
 jwt:
-  expiration: 1800
+  expiration: 1800000
   secret: springbootjwtcoderhouse
 server:
   port: 9090
