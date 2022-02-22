@@ -13,6 +13,19 @@ spring:
       authentication-database: admin
       password: admin
       username: myUserAdmin
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: cuentacoderhousemail@gmail.com
+    password: Spartan1777
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+
 jwt:
   expiration: 1800000
   secret: springbootjwtcoderhouse
